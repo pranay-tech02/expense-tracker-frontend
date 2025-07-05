@@ -1,0 +1,41 @@
+/* components/AddExpenseForm.css */
+.expense-form {
+  background: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.expense-form h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.expense-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.error-text {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
